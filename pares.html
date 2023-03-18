@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beef Pares</title>
+    <link rel="stylesheet" href="dish.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="foodbg-removebg-preview.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Beef Pares</h1>
+            <div><img src="paresmain.jpg" alt="NULL"/></div>
+            <div class="ingredient">
+                <h2 class="center-text">Ingredients</h2>
+            <p>
+                
+                    <li>2 ½ lbs. beef cubed</li>
+                    <li>1 piece Knorr Beef Cube</li>
+                    <li>2 pieces star anise</li>
+                    <li>¼ cup brown sugar</li>
+                    <li>½ cup scallions chopped</li>
+                    <li>2 thumbs ginger minced</li>
+                    <li>6 tablespoons soy sauce</li>
+                    <li>1 piece onion chopped</li>
+                    <li>5 cloves garlic crushed</li>
+                    <li>2 ½ cups water</li>
+                    <li>3 tablespoons cooking oil</li>
+                    <li>Salt and ground black pepper to taste</li>
+                    
+                    
+            </p>
+            </div>
+           <div class="procedure">
+            <h2 class="center-text">Procedures</h2>
+            
+                <ol>
+                   <li>Heat oil in a cooking pot or pressure cooker. Saute onion, garlic, and ginger.</li>
+                   <li>Add the beef once onion softens. Cook until light brown.</li>
+                   <li>Pour soy sauce and water. Stir</li>
+                   <li>Add Knorr Beef Cube and star anise. Cover the pressure cooker and pressure cook for 15 minutes.</li>
+                   <li>Add brown sugar and season with salt and ground black pepper. Cook for 8 to 10 minutes more or until the sauce reduces a bit.</li>
+                   <li>Top with chopped scallions and serve with sinangag and beef stock. Share and enjoy.</li>
+                </ol> 
+            
+           </div>
+        
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Kyle Angelo Beltran</p>
+        <div class="icons icon-color">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+        </div>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        } 
+    </script>
+</body>
+</html>

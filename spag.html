@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Style Spagetti</title>
+    <link rel="stylesheet" href="dish.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="foodbg-removebg-preview.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Filipino Style Spagetti</h1>
+            <div><img src="spagmain.jpg" alt="NULL"/></div>
+            <div class="ingredient">
+                <h2 class="center-text">Ingredients</h2>
+            <p>
+                
+                    <li>2 lbs. Spaghetti noodles</li>
+                    <li>1 lb. ground pork</li>
+                    <li>6 ounces luncheon meat minced</li>
+                    <li>4 pieces hotdogs or beef franks</li>
+                    <li>35 ounces Filipino Style Spaghetti Sauce</li>
+                    <li>1/2 cup shredded cheddar cheese</li>
+                    <li>1 1/2 cups beef broth</li>
+                    <li>1 medium onion minced</li>
+                    <li>1 teaspoon minced garlic</li>
+                    <li>Salt and pepper to taste</li>
+                    <li>3 tablespoons cooking oil</li>
+                    
+                    
+                    
+            </p>
+            </div>
+           <div class="procedure">
+            <h2 class="center-text">Procedures</h2>
+            
+                <ol>
+                   <li>Cook the Spaghetti noodles according to package instructions. Once cooked, transfer to a bowl. Set aside.</li>
+                   <li>Heat the oil in a Pan.</li>
+                   <li>Saute the onion and garlic.</li>
+                   <li>Once the onions becomes soft, add the ground pork. Cook until the color turns light brown.</li>
+                   <li>Add the luncheon meat and hotdog. Stir and cook for 2 to 3 minutes.</li>
+                   <li>Pour-in the Spaghetti sauce and beef broth. Stir and let boil. Cover and simmer for 30 minutes.</li>
+                   <li>Try to taste the sauce and add salt and pepper if needed.</li>
+                   <li>Pour the Filipino Style Spaghetti sauce over the Spaghetti. Top with shredded cheese.</li>
+                   <li>Serve. Share and enjoy!</li>
+                </ol> 
+            
+           </div>
+        
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Kyle Angelo Beltran</p>
+        <div class="icons icon-color">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+        </div>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        } 
+    </script>
+</body>
+</html>

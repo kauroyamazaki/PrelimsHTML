@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Cook Book</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="foodbg-removebg-preview.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Online Food Recipe</h1>
+            <p>Cooking is an art, food gratifies the audience when we cook with a secret ingredient called “Love”.
+                
+                    </p>
+            <a href="" class="sub-btn">Subscribe to learn more</a>
+        </div>
+    </section>
+
+    <!-- FOOD SECTION -->
+    <section class="fbg">
+    <section class="foods">
+        <h1>Recipes Of the Week</h1>
+       
+            <div class="row">   
+                <div class="food-col">
+                    <img src="adobo.jpg" alt="">
+                        <h3>Adobo</h3>
+                        <p>
+                            Chicken slices cooked in soy sauce and vinegar with garlic. This is a delicious Filipino chicken dish that you can eat for lunch with warm white rice.                        </p>
+                        <a href="adobo.html" class="view-btn">More</a>
+                </div>
+                <div class="food-col">
+                    <img src="cordon.jpg" alt="">
+                        <h3>Cordon Bleu</h3>
+                        <p>
+                            A cordon bleu is a dish that traditionally consists of meat wrapped around cheese, then breaded and pan-fried or deep-fried. Many modern versions of the classic French recipe, such as this one, are baked.
+                        </p>
+                        <a href="cordon.html" class="view-btn">More</a>
+
+                </div>
+                <div class="food-col">
+                    <img src="pares.jpg" alt="">
+                        <h3>Beef Pares</h3>
+                        <p>
+                            Pares, also known as beef pares, is a term for a serving of Filipino braised beef stew with garlic fried rice, and a bowl of clear soup. It is a popular food particularly associated with specialty roadside diner-style establishments known as Pares Houses that specialize in serving these type of meals.
+                        </p>
+                        <a href="pares.html" class="view-btn">More</a>
+
+                </div>   
+            </div>
+            <!-- <div class="row2">
+                <div class="food-col">
+                    <img src="spag.jpg" alt="">
+                        <h3>Filipino Style Spagetti</h3>
+                        <p>
+                            Filipino Spaghetti is the Pinoy version of Spaghetti with meat sauce. This version has a sweet tomato based sauce with lots of meat ingredients such as ground pork, luncheon meat, and hotdogs.
+                        </p>
+                        <a href="spag.html" class="view-btn">More</a>
+
+                </div>
+                <div class="food-col">
+                    <img src="pakbet.jpg" alt="">
+                        <h3>Pinakbet</h3>
+                        <p>
+                            Pinakbet is an indigenous Filipino dish from the northern regions of the Philippines. Pinakbet is made from mixed vegetables sautéed in fish or shrimp sauce. The word is the contracted from the Ilokano word pinakebbet, meaning "shrunk" or "shriveled."
+                        </p>
+                        <a href="pinakbet.html" class="view-btn">More</a>
+
+                </div> -->
+                 
+            </div>
+
+    </section>
+</section>
+
+    <section class="recommended">
+        <h1>Must try Dishes</h1>
+       
+        <div class="row2">
+            <div class="reco-col">
+                <img src="spagg.jpg">
+                <div class="img">
+                    <h2>Filipino Style Spaghetti</h2>
+                    <a href="spag.html" class="view-btn2">More</a>
+                </div>
+            </div>
+            
+            <div class="reco-col">
+                <img src="Pinakbet.jpg">
+                
+                <div class="img">
+                    <h2>Pinakbet</h2>
+                    <a href="pinakbet.html" class="view-btn2">More</a>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Kyle Angelo Beltran</p>
+        <div class="icons icon-color">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+        </div>
+
+    </section>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        } 
+    </script>
+</body>
+</html>

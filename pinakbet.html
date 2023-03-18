@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinakbet</title>
+    <link rel="stylesheet" href="dish.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="foodbg-removebg-preview.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Pinakbet</h1>
+            <div><img src="pakbetmain.jpg" alt="NULL"/></div>
+            <div class="ingredient">
+                <h2 class="center-text">Ingredients</h2>
+            <p>
+                
+                    <li>1 lb lechon kawali sliced</li>
+                    <li>1 piece Knorr Shrimp Cube</li>
+                    <li>12 pieces sitaw cut into 2 inch length</li>
+                    <li>1/2 piece kalabasa cubed</li>
+                    <li>12 pieces okra</li>
+                    <li>1 piece Chinese eggplant sliced</li>
+                    <li>1 piece ampalaya sliced</li>
+                    <li>1 piece kamote cubed (optional)</li>
+                    <li>2 pieces tomato cubed</li>
+                    <li>2 thumbs ginger crushed (optional)</li>
+                    <li>1 piece onion chopped</li>
+                    <li>4 cloves garlic crushed</li>
+                    <li>2 teaspoons bagoong alamang</li>
+                    <li>2 ½ cups water</li>
+                    <li>3 tablespoons cooking oil</li>
+                    <li>¼ teaspoon ground black pepper</li>
+                    
+                    
+                    
+            </p>
+            </div>
+           <div class="procedure">
+            <h2 class="center-text">Procedures</h2>
+            
+                <ol>
+                  <li>Heat cooking oil in a pot. Saute onion and garlic. Add ginger and continue to cook until the onion softens.</li>
+                  <li>Add lechon kawali. Saute for 1 minute.</li>
+                  <li>Pour water. Let boil.</li>
+                  <li>Add Knorr Shrimp Cube. Cover the pot and cook in medium heat for 20 minutes.</li>
+                  <li>Add tomato and bagoong alamang. Stir. Cover the pot. Cook for 3 minutes.</li>
+                  <li>Put the kalabasa and kamote into the pot. Cook for 7 minutes.</li>
+                  <li>Add sitaw, okra, ampalaya, and eggplant. Stir. Cover the pot and cook for 5 minutes.</li>
+                  <li>Season with ground black pepper and add remaining lechon kawali. Cook for minutes.</li>
+                  <li>Tranfer to a serving plate. Serve. Share and Enjoy!</li>
+                </ol> 
+            
+           </div>
+        
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Kyle Angelo Beltran</p>
+        <div class="icons icon-color">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+        </div>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        } 
+    </script>
+</body>
+</html>

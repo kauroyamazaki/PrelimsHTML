@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobo</title>
+    <link rel="stylesheet" href="dish.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="foodbg-removebg-preview.pngg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Adobo</h1>
+            <div><img src="adobomain.jpg" alt=""></div>
+            <div class="ingredient">
+                <h2 class="center-text">Ingredients</h2>
+            <p>
+                
+                    <li> 2 lbs chicken </li>
+                    <li> 3 pieces dried bay leaves</li>
+                    <li> 8 tablespoons soy sauce</li>
+                    <li> 4 tablespoons white vinegar</li>
+                    <li> 5 cloves garlic </li>
+                    <li> 1 1/2 cups water</li>
+                    <li> 3 tablespoons cooking oil</li>
+                    <li> 1 teaspoon sugar </li>
+                    <li> 1/4 teaspoon salt</li>
+                    <li> 1 teaspoon whole peppercorn</li>
+            </p>
+            </div>
+           <div class="procedure">
+            <h2 class="center-text">Procedures</h2>
+            
+                <ol>
+                    <li>Combine chicken, soy sauce, and garlic in a large bowl. Mix well. Marinate the chicken for at least 1 hour. Note: the longer the time, the better</li>
+                    <li>Heat a cooking pot. Pour cooking oil.</li>
+                    <li>When the oil is hot enough, pan-fry the marinated chicken for 2 minutes per side.</li>
+                    <li>Pour-in the remaining marinade, including garlic. Add water. Bring to a boil                    </li>
+                    <li>Add dried bay leaves and whole peppercorn. Simmer for 30 minutes or until the chicken gets tender</li>
+                    <li>Add vinegar. Stir and cook for 10 minutes.</li>
+                    <li>Put-in the sugar, and salt. Stir and turn the heat off.Serve hot. Share and Enjoy!                    </li>
+                </ol> 
+            
+           </div>
+        
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Kyle Angelo Beltran</p>
+        <div class="icons icon-color">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+        </div>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        } 
+    </script>
+</body>
+</html>
